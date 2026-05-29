@@ -1,0 +1,2 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+human_sexuality/test/107,human_sexuality,Social Sciences,Which is true with regard to voyeurs?,They are generally middle-aged.,They are usually dangerous.,They typically want to view friends' sexual behaviours.,They typically want to observe strangers' activities.,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'Yes']","['-', '-', '-', '-']",[],[],[],CA,True

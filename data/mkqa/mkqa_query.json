@@ -1,0 +1,268 @@
+{
+    "query": "how long did it take the twin towers to be built",
+    "answers": {
+        "en": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 years",
+                "aliases": [
+                    "11 years"
+                ]
+            }
+        ],
+        "no": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 År",
+                "aliases": [
+                    "11 År"
+                ]
+            }
+        ],
+        "ru": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 лет",
+                "aliases": [
+                    "11 лет"
+                ]
+            }
+        ],
+        "hu": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 esztendő",
+                "aliases": [
+                    "11 esztendő"
+                ]
+            }
+        ],
+        "tr": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 yıl",
+                "aliases": [
+                    "11 yıl"
+                ]
+            }
+        ],
+        "ms": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 tahun",
+                "aliases": [
+                    "11 tahun"
+                ]
+            }
+        ],
+        "ja": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 年",
+                "aliases": [
+                    "11 年"
+                ]
+            }
+        ],
+        "sv": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 årtal",
+                "aliases": [
+                    "11 årtal"
+                ]
+            }
+        ],
+        "it": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 anno",
+                "aliases": [
+                    "11 anno"
+                ]
+            }
+        ],
+        "pl": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 rok",
+                "aliases": [
+                    "11 rok"
+                ]
+            }
+        ],
+        "ar": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 سنة",
+                "aliases": [
+                    "11 سنة"
+                ]
+            }
+        ],
+        "th": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 ปี",
+                "aliases": [
+                    "11 ปี"
+                ]
+            }
+        ],
+        "km": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 years",
+                "aliases": [
+                    "11 years"
+                ]
+            }
+        ],
+        "nl": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 jaar",
+                "aliases": [
+                    "11 jaar"
+                ]
+            }
+        ],
+        "ko": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 연도",
+                "aliases": [
+                    "11 연도"
+                ]
+            }
+        ],
+        "es": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 año terrestre",
+                "aliases": [
+                    "11 año terrestre"
+                ]
+            }
+        ],
+        "de": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 Jahr",
+                "aliases": [
+                    "11 Jahr"
+                ]
+            }
+        ],
+        "pt": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 ano",
+                "aliases": [
+                    "11 ano"
+                ]
+            }
+        ],
+        "vi": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 năm",
+                "aliases": [
+                    "11 năm"
+                ]
+            }
+        ],
+        "fr": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 années",
+                "aliases": [
+                    "11 années"
+                ]
+            }
+        ],
+        "he": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 שנה",
+                "aliases": [
+                    "11 שנה"
+                ]
+            }
+        ],
+        "da": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 år",
+                "aliases": [
+                    "11 år"
+                ]
+            }
+        ],
+        "fi": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 vuosi",
+                "aliases": [
+                    "11 vuosi"
+                ]
+            }
+        ],
+        "zh_cn": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 年份",
+                "aliases": [
+                    "11 年份"
+                ]
+            }
+        ],
+        "zh_tw": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 年份",
+                "aliases": [
+                    "11 年份"
+                ]
+            }
+        ],
+        "zh_hk": [
+            {
+                "type": "number_with_unit",
+                "text": "11.0 年份",
+                "aliases": [
+                    "11 年份"
+                ]
+            }
+        ]
+    },
+    "queries": {
+        "tr": "ikiz kulelerin inşa edilmesi ne kadar sürdü",
+        "hu": "mennyi ideig épültek az ikertornyok?",
+        "zh_hk": "建造twin towers用了多長時間",
+        "nl": "hoelang duurde het om de twin towers te bouwen",
+        "ms": "menara berkembar petronas mengambil masa berapa lama untuk siap dibina",
+        "zh_cn": "世贸双塔建造用时多长",
+        "ja": "ツインタワーが建てられるまでどの位の時間がかかりましたか",
+        "de": "Wie lange dauerte es, um die Twin Towers zu bauen?",
+        "ru": "как долго строились башни-близнецы",
+        "pl": "ile czasu zajęło zbudowanie bliźniaczych wież",
+        "fi": "kuinka pitkään kaksoistorneja rakennettiin",
+        "pt": "quanto tempo levou para as torres gêmeas serem construídas",
+        "km": "តើវាត្រូវចំណាយពេលប៉ុន្មានដើម្បីសាងសង់ប៉មភ្លោះ",
+        "it": "Quanto ci è voluto per costruire le torri gemelle",
+        "fr": "combien de temps a-t-il fallu pour construire les tours jumelles",
+        "he": "כמה זמן לקח לבנות את מגדלי התאומים",
+        "vi": "Tòa tháp đôi được xây dựng trong bao lâu?",
+        "zh_tw": "世界貿易中心花了多久蓋好",
+        "no": "hvor lang tid tok det å bygge tvillingtårnene",
+        "da": "hvor lang tid tog det at bygge tvillinge tårnene",
+        "th": "ตึกคู่ใช้เวลาสร้างเท่าไหร่",
+        "sv": "hur lång tid tog det att bygga twin towers",
+        "es": "cuanto tardaron en construirse las torres gemelas",
+        "ar": ": كم من الوقت استغرق بناء البرجين التوأمين",
+        "en": "how long did it take the twin towers to be built",
+        "ko": "쌍둥이 빌딩이 지어지기 까지 얼마나 걸려"
+    },
+    "example_id": 3051930912491995402
+}

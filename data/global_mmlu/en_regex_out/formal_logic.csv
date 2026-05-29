@@ -1,0 +1,23 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+formal_logic/test/25,formal_logic,Humanities," Use indirect truth tables to determine whether each set of propositions is consistent. If the set is consistent, choose an option with a consistent valuation. (There may be other consistent valuations.)
+D ≡ E
+F ∨ D
+~E · ~F",Inconsistent,"Consistent. Consistent valuation when D, E, and F are true",Consistent. Consistent valuation when D and E are true and F is false,Consistent. Consistent valuation when D and F are true and E is false,A,[],[],[],[],[],[],-,False
+formal_logic/test/30,formal_logic,Humanities," Use indirect truth tables to determine whether each set of propositions is consistent. If the set is consistent, choose an option with a consistent valuation. (There may be other consistent valuations.)
+A ⊃ (~B ∨ C)
+C ⊃ D
+A ∨ (B · ~D)
+A ≡ (B ⊃ D)",Inconsistent,Consistent. Consistent valuation when A and D are true and B and C are false,"Consistent. Consistent valuation when A, B, and D are true and C is false",Consistent. Consistent valuation when C and D are true and A and B are false,B,[],[],[],[],[],[],-,False
+formal_logic/test/57,formal_logic,Humanities," Use indirect truth tables to determine whether each set of propositions is consistent. If the set is consistent, choose an option with a consistent valuation. (There may be other consistent valuations.)
+(T ⊃ U) ⊃ (W ⊃ U)
+T ⊃ ~(U ⊃ X)
+(T ⊃ ~X) ⊃ W",Inconsistent,"Consistent. Consistent valuation when U, W, and X are true and T is false",Consistent. Consistent valuation when W and X are true and T and U are false,Consistent. Consistent valuation when T and U are true and W and X are false,B,[],[],[],[],[],[],-,False
+formal_logic/test/71,formal_logic,Humanities," Use indirect truth tables to determine whether each set of propositions is consistent. If the set is consistent, choose an option with a consistent valuation. (There may be other consistent valuations.)
+~N ≡ (O · P)
+~O ⊃ Q
+N · ~Q",Inconsistent,"Consistent. Consistent valuation when N, O, and P are true and Q is false",Consistent. Consistent valuation when N and O are true and P and Q are false,Consistent. Consistent valuation when N and P are true and O and Q are false,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+formal_logic/test/78,formal_logic,Humanities," Use indirect truth tables to determine whether each set of propositions is consistent. If the set is consistent, choose an option with a consistent valuation. (There may be other consistent valuations.)
+(E ⊃ F) ⊃ G
+(~E ∨ F) ≡ (H ∨ I)
+I ⊃ (J ⊃ ~H)
+~G ⊃ ~J",Inconsistent,"Consistent. Consistent valuation when E is true and F, G, H, I, and J are false","Consistent. Consistent valuation when E and H are true and F, G, I, and J are false","Consistent. Consistent valuation when E and I are true and F, G, H, and J are false",B,[],[],[],[],[],[],-,False

@@ -1,0 +1,66 @@
+{
+  "mkqa":{
+    "mkqa_answerable_binary": {
+      "en": "You are a helpful assistant. Answer the user’s question in one to ten words. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario en una a diez palabras. Detén la generación inmediatamente después de responder la pregunta.",
+      "de": "Du bist ein hilfsbereiter Assistent. Antworte auf die Fragen des Benutzers in ein bis zehn Wörtern. Höre sofort mit der Ausgabe aus, nachdem du die Frage beantwortet hast.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en un à dix mots. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś użytecznym asystentem. Odpowiadaj na pytania użytkownika, używając od jednego do dziesięciu słów. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя от одного до десяти слов. Останавливай генерацию сразу после ответа.",
+      "th": "คุณเป็นผู้ช่วยที่มีประโยชน์ ตอบคำถามของผู้ใช้ภายในหนึ่งถึงสิบคำ หยุดการสร้างทันทีหลังจากตอบคำถาม",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問に1～10語で答えてください。質問に答えたらすぐに出力を終了してください。"
+    },
+    "mkqa_answerable_short_phrase": {
+      "en": "You are a helpful assistant. Answer the user’s question in one to ten words. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario en una a diez palabras. Detén la generación inmediatamente después de responder la pregunta.",
+      "de": "Du bist ein hilfsbereiter Assistent. Antworte auf die Fragen des Benutzers in ein bis zehn Wörtern. Höre sofort mit der Ausgabe aus, nachdem du die Frage beantwortet hast.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en un à dix mots. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś użytecznym asystentem. Odpowiadaj na pytania użytkownika, używając od jednego do dziesięciu słów. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя от одного до десяти слов. Останавливай генерацию сразу после ответа.",
+      "th": "คุณเป็นผู้ช่วยที่มีประโยชน์ ตอบคำถามของผู้ใช้ภายในหนึ่งถึงสิบคำ หยุดการสร้างทันทีหลังจากตอบคำถาม",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問に1～10語で答えてください。質問に答えたらすぐに出力を終了してください。"
+    },
+    "mkqa_answerable_entity_no_duplicates": {
+      "en": "You are a helpful assistant. Answer the user’s question in one to ten words. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario en una a diez palabras. Detén la generación inmediatamente después de responder la pregunta.",
+      "de": "Du bist ein hilfsbereiter Assistent. Antworte auf die Fragen des Benutzers in ein bis zehn Wörtern. Höre sofort mit der Ausgabe aus, nachdem du die Frage beantwortet hast.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en un à dix mots. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś użytecznym asystentem. Odpowiadaj na pytania użytkownika, używając od jednego do dziesięciu słów. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя от одного до десяти слов. Останавливай генерацию сразу после ответа.",
+      "th": "คุณเป็นผู้ช่วยที่มีประโยชน์ ตอบคำถามของผู้ใช้ภายในหนึ่งถึงสิบคำ หยุดการสร้างทันทีหลังจากตอบคำถาม",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問に1～10語で答えてください。質問に答えたらすぐに出力を終了してください。"
+    },
+    "mkqa_answerable_date_no_duplicates": {
+      "en": "You are a helpful assistant. Answer the user’s question using only the date requested. Do not include explanations or extra text. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario usando solo la fecha solicitada. No incluyas explicaciones ni texto adicional. Detén la generación inmediatamente después de responder la pregunta.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en utilisant uniquement la date demandée. N'ajoute ni explications ni texte supplémentaire. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś użytecznym asystentem. Odpowiadaj na pytania użytkownika, używając wyłącznie żądanej daty. Nie dodawaj wyjaśnień ani dodatkowego tekstu. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя только указанную дату. Не добавляй пояснений или дополнительного текста. Останавливай генерацию сразу после ответа.",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問には、要求された日付のみを使って回答してください。説明や余分なテキストは含めないでください。質問への回答後、すぐに出力を終了してください。"
+    },
+    "mkqa_answerable_number_no_duplicates": {
+      "en": "You are a helpful assistant. Answer the user’s question using only the number needed to answer it. Do not include explanations or extra text. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario usando solo el número necesario. No incluyas explicaciones ni texto adicional. Detén la generación inmediatamente después de responder la pregunta.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en utilisant uniquement le nombre nécessaire. N'ajoute ni explications ni texte supplémentaire. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś użytecznym asystentem. Odpowiadaj na pytania użytkownika, używając jedynie liczby, która jest potrzebna. Nie dodawaj wyjaśnień ani dodatkowego tekstu. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя только необходимое число. Не добавляй пояснений или дополнительного текста. Останавливай генерацию сразу после ответа.",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問には、回答に必要な数字だけを使って答えてください。説明や余分なテキストは含めないでください。質問に答えたらすぐに出力を終了してください。"
+    },
+    "mkqa_answerable_number_with_unit_no_duplicates": {
+      "en": "You are a helpful assistant. Answer the user’s question using only the required number and its unit. Do not include explanations or extra text. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario usando solo el número requerido y su unidad. No incluyas explicaciones ni texto adicional. Detén la generación inmediatamente después de responder la pregunta.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en utilisant uniquement le nombre demandé et son unité. N'ajoute ni explications ni texte supplémentaire. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś użytecznym asystentem. Odpowiadaj na pytania użytkownika, używając tylko wymaganej liczby i jej jednostki. Nie dodawaj wyjaśnień ani dodatkowego tekstu. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя только необходимое число и его единицу измерения. Не добавляй пояснений или дополнительного текста. Останавливай генерацию сразу после ответа.",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問には、必要な数値とその単位のみを使って答えてください。説明や余分なテキストは含めないでください。質問に答えたらすぐに出力を終了してください。"
+    }
+  },
+  "global_mmlu":{
+      "en": "You are a helpful assistant. Answer the user’s question in one to ten words. If the answer is a number, respond with only that number. Do not include explanations or extra text. End your output immediately after your answer to the question.",
+      "es": "Eres un asistente útil. Responde la pregunta del usuario en una a diez palabras. Si la respuesta es un número, responde solo con ese número. No incluyas explicaciones ni texto adicional. Detén la generación inmediatamente después de responder la pregunta.",
+      "fr": "Tu es un assistant serviable. Réponds à la question de l'utilisateur en un à dix mots. Si la réponse est un nombre, indique uniquement ce nombre. N'ajoute ni explications ni texte supplémentaire. Arrête la génération immédiatement après ta réponse à la question.",
+      "pl": "Jesteś asystentem pomocniczym. Odpowiadaj na pytania użytkownika, używając od jednego do dziesięciu słów. Jeśli odpowiedź jest liczbą, podaj tylko tę liczbę. Nie dodawaj wyjaśnień ani dodatkowego tekstu. Przestań generować natychmiast po udzieleniu odpowiedzi.",
+      "ru": "Ты полезный помощник. Отвечай на вопросы пользователя, используя от одного до десяти слов. Если ответ число, укажитолько это число. Не добавляй пояснений или дополнительного текста. Останавливай генерацию сразу после ответа.",
+      "ja": "あなたは役に立つアシスタントです。ユーザーの質問に1～10語で答えてください。答えが数字の場合は、その数字のみを答えてください。説明や余分なテキストは含めないでください。質問に答えたらすぐに応答を終了してください。"
+  }
+}

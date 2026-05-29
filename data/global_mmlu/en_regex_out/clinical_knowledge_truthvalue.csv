@@ -1,0 +1,2 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+clinical_knowledge/test/77,clinical_knowledge,Medical,Name the bones of the middle finger in the correct order from the hand.,"Proximal phalynx, middle phalynx, distal phalynx.","Distal phalynx, middle phalynx, proximal phalynx.","Middle phalynx, distal phalynx, proximal phalynx.","Distal phalynx, proximal phalynx, middle phalynx.",A,[],[],[],[],[],[],-,False

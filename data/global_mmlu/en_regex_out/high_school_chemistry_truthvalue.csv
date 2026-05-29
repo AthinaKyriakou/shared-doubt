@@ -1,0 +1,2 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+high_school_chemistry/test/134,high_school_chemistry,STEM,Which is correct about the calcium atom?,It contains 20 protons and neutrons,It contains 20 protons and 20 electrons,"It contains 20 protons, neutrons, and electrons",All atoms of calcium have a mass of 40.078 u,B,[],[],[],[],[],[],-,False

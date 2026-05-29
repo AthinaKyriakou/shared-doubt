@@ -1,0 +1,5 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+college_mathematics/test/43,college_mathematics,STEM,"Suppose A and B are n × n matrices with real entries. Which of the follow are TRUE?
+I. The trace of A^2 is nonnegative.
+II. If A^2 = A, then the trace of A is nonnegative.
+III. The trace of AB is the product of the traces of A and B.",II only,III only,I and II only,II and III only,A,[],[],[],[],[],[],-,False

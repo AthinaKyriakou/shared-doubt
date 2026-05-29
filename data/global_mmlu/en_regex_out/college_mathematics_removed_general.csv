@@ -1,0 +1,76 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+college_mathematics/test/0,college_mathematics,STEM,"Let k be the number of real solutions of the equation e^x + x - 2 = 0 in the interval [0, 1], and let n be the number of real solutions that are not in [0, 1]. Which of the following is true?",k = 0 and n = 1,k = 1 and n = 0,k = n = 1,k > 1,B,[],[],[],[],[],[],-,False
+college_mathematics/test/5,college_mathematics,STEM,"Let (Z_{10} , +, x) be the ring of integers modulo 10, and let S be the subset of Z_{10} represented by {0, 2, 4, 6, 8}. Which of the following statements is FALSE?","(S, +, x) is closed under addition modulo 10.","(S, +, x) is closed under multiplication modulo 10.","(S, +, x) has an identity under addition modulo 10.","(S, +, x) has no identity under multiplication modulo 10.",D,[],[],[],[],[],[],-,False
+college_mathematics/test/8,college_mathematics,STEM,"Let V be a finite-dimensional real vector space and let P be a linear transformation of V such that P^2 = P. Which of the following must be true?
+I. P is invertible.
+II. P is diagonalizable.
+III. P is either the identity transformation or the zero transformation.",,I only,II only,III only,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/9,college_mathematics,STEM,Which of the following is true?,Every compact space is complete,Every complete space is compact,Neither (a) nor (b)., Both (a) and (b).,A,[],[],[],[],[],[],-,False
+college_mathematics/test/12,college_mathematics,STEM,Let V and W be 4-dimensional subspaces of a 7-dimensional vector space X. Which of the following CANNOT be the dimension of the subspace V intersect W?,0,1,2,3,A,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/15,college_mathematics,STEM,"Let K be a nonempty subset of R^n, where n > 1. Which of the following statements must be true?
+I. If K is compact, then every continuous real-valued function defined on K is bounded.
+II. If every continuous real-valued function defined on K is bounded, then K is compact.
+III. If K is compact, then K is connected.",I only,II only,III only,I and II only,D,"['none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/16,college_mathematics,STEM,"Suppose V is a real vector space of finite dimension n. Call the set of matrices from V into itself M(V). Let T be in M(V). Consider the two subspaces U = {X ∈ M(V) : TX = XT} and W = {TX − XT : X ∈ M(V)}. Which of the following must be TRUE?
+I. If V has a basis containing only eigenvectors of T then U = M(V).
+II. dim (U) + dim (W) = n^2
+III. dim (U) < n",I only,II only,III only,I and II only,B,"['none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/18,college_mathematics,STEM,"Let X be a topological space, and let A, B, and C be nonempty subsets of X such that A c B c C; that is, A is a proper subset of B, and B is a proper subset of C. Which of the following statements is (are) true?
+I. If A and C are connected, then B is connected.
+II. If A and C are compact, then B is compact.
+III. If A and C are Hausdorff, then B is Hausdorff.",I and II only,III only,I and III only,"I, II, and III",D,[],[],[],[],[],[],-,False
+college_mathematics/test/20,college_mathematics,STEM,"If v is an eigenvector of an invertible matrix A, then which of the following is I are necessarily
+true?
+I. v is also an eigenvector of 2A.
+II. v is also an eigenvector of A^2.
+III. v is also an eigenvector of A^(-1).",I only,II only,III only,"I, II, and III",D,[],[],[],[],[],[],-,False
+college_mathematics/test/22,college_mathematics,STEM,"Let R be a ring with a multiplicative identity. If U is an additive subgroup of R such that ur in U for all u in U and for all r in R, then U is said to be a right ideal of R. If R has exactly two right ideals, which of the following must be true?
+I. R is commutative.
+II. R is a division ring (that is, all elements except the additive identity have multiplicative inverses).
+III. R is infinite.",I only,II only,III only,I and II only,B,[],[],[],[],[],[],-,False
+college_mathematics/test/25,college_mathematics,STEM,"Define a binary operation on Z, the set of integers, by the equation m • n = m + n + mn. Which of
+the following statements is (are) true about the binary structure (Z, • )?
+I. This structure is not a group since the operation is not associative.
+II. This structure is not a group since there is no identity element.
+III. This structure is not a group since not all elements have an inverse.
+IV. This structure is a group.",I and II only,I and III only,II and III only,III only,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/28,college_mathematics,STEM,"Let f(x,y) = x^2 - 2xy + y^3 for all real x and y. Which of the following is true?",f has all of its relative extrema on the line x = y.,f has all of its relative extrema on the parabola x = y^2.,"f has a relative minimum at (0, 0).","f has an absolute minimum at (2/3, 2/3).",A,[],[],[],[],[],[],-,False
+college_mathematics/test/30,college_mathematics,STEM,"S(n) is a statement about positive integers n such that whenever S(k) is true, S(k + 1) must also be true. Furthermore, there exists some positive integer n0 such that S(n0) is not true. Of the following, which is the strongest conclusion that can be drawn?",S(n0 + 1) is not true.,S(n0 - 1) is not true.,S(n) is not true for any n <= n0,S(n) is not true for any n >= n0,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/34,college_mathematics,STEM,"Suppose A and B are n x n invertible matrices, where n > 1, and I is the n x n identity matrix. If A and B are similar matrices, which of the following statements must be true?	I. A - 2I and B - 2I are similar matrices. II. A and B have the same trace.	 III. A^-1 and B^-1 are similar matrices.",I only,II only,III only,"I, II, and III",D,"['none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/36,college_mathematics,STEM,Which of the following is an equation of the line tangent to the graph of y = x + e^x at x = 0 ?,y = 2x + 1,y = 2x,y = x + 2,y = x + 1,A,"['none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/48,college_mathematics,STEM,"Which of the following are valid intervals of convergence for a power series?
+(I) [−1, 3)
+(II) (−∞, 0]
+(III) [2, 2] ∪ [3, 3]
+(IV) (−∞,∞)",Only (II),Only (IV ),(I) and (IV ),(II) and (III),C,"['none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/49,college_mathematics,STEM,"If f: R -> R is a bounded function that is Lebesgue integrable, then which of the following must be true?",f is Riemann integrable.,There does not exist a countably infinite E of R such that f is nondifferentiable at every x \in E.,There does not exist an uncountable subset E of R such that f is nondifferentiable at every x \in E.,None of the above.,D,[],[],[],[],[],[],-,False
+college_mathematics/test/52,college_mathematics,STEM,"Let S be a compact topological space, let T be a topological space, and let f be a function from S onto T. Of the following conditions on f, which is the weakest condition sufficient to ensure the compactness of T?",f is a homeomorphism.,f is continuous and one-to-one,f is continuous.,f is one-to-one,C,[],[],[],[],[],[],-,False
+college_mathematics/test/55,college_mathematics,STEM,"Which of the following is not always true for x, y, z ∈ R^k?",|x| ≥ 0,|x · y| ≤ |x||y|,|x| = 0 if and only if x = 0,|x + y| = |x| + |y|,D,"['none', 'none', 'none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/62,college_mathematics,STEM,Which of the following are true:,"It is possible to place an linear order relation ≤ on the complex numbers C such that (C, +, ×, ≤) is not an ordered field.","It is possible to place a linear order relation on the complex numbers C which make (C, +, ×, ≤) an ordered field.",Neither (a) nor (b),Both (a) and (b).,A,[],[],[],[],[],[],-,False
+college_mathematics/test/64,college_mathematics,STEM,Which of the following is NOT a group?,The integers under addition,The nonzero integers under multiplication,The nonzero real numbers under multiplication,The complex numbers under addition,B,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/65,college_mathematics,STEM,Let x and y be positive integers such that 3x + 7y is divisible by 11. Which of the following must also be divisible by 11?,4x + 6y,x + y + 5,9x + 4y,4x - 9y,D,[],[],[],[],[],[],-,False
+college_mathematics/test/67,college_mathematics,STEM,"Let R be a ring and let U and V be (two-sided) ideals of R. Which of the following must also be ideals of R ?
+I. {u + v : u \in and v \in V}
+II. {uv : u \in U and v \in V}
+III. {x : x \in U and x \in V}",II only,III only,I and II only,I and III only,D,[],[],[],[],[],[],-,False
+college_mathematics/test/71,college_mathematics,STEM,"Consider the system of linear equations
+w + 3x + 2y + 2z = 0
+w + 4x + y = 0
+3w + 5x + 10 y + 14z = 0
+2w + 5x + 5y + 6z = 0
+with solutions of the form (w, x, y, z), where w x, y, and z are real. Which of the following statements is FALSE?",The system is consistent.,The system has infinitely many solutions.,The sum of any two solutions is a solution.,"Every solution is a scalar multiple of (-5, 1, 1, 0).",D,[],[],[],[],[],[],-,False
+college_mathematics/test/73,college_mathematics,STEM,"Suppose A is a 3 × 3 matrix such that det(A − λI) = −λ^3 + 3λ^2 + λ − 3, where I is the 3 × 3 identity matrix. Which of the following are TRUE of A?
+I. The trace of A is 3.
+II. The determinate of A is −3.
+III. The matrix A has eigenvalues −3 and 1.",I only,II only,III only,I and II only,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/75,college_mathematics,STEM,"A fair coin is to be tossed 100 times, with each toss resulting in a head or a tail. If H is the total number of heads and T is the total number of tails, which of the following events has the greatest probability?",H = 50,T >= 60,51 <= H <= 55,H >= 48 and T >= 48,D,"['none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/80,college_mathematics,STEM,Which of the following sets has the greatest cardinality?,R,The set of all functions from Z to Z,"The set of all functions from R to {0, 1}",The set of all finite subsets of R,C,[],[],[],[],[],[],-,False
+college_mathematics/test/85,college_mathematics,STEM,"If A is a subset of the real line R and A contains each rational number, which of the following must be true?","If A is open, then A = R.","If A is closed, then A = R.","If A is uncountable, then A = R.","If A is uncountable, then A is open.",B,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/86,college_mathematics,STEM,Let M be a 5 x 5 real matrix. Exactly four of the following five conditions on M are equivalent to each other. Which of the five conditions is equivalent to NONE of the other four?,"For any two distinct column vectors u and v of M, the set {u, v} is linearly independent.",The homogeneous system Mx = 0 has only the trivial solution.,The system of equations Mx = b has a unique solution for each real 5 x 1 column vector b.,The determinant of M is nonzero.,A,[],[],[],[],[],[],-,False
+college_mathematics/test/88,college_mathematics,STEM,For which of the following rings is it possible for the product of two nonzero elements to be zero?,The ring of complex numbers,The ring of integers modulo 11,"The ring of continuous real-valued functions on [0, 1]",The ring {a + b * sqrt(2) : a and b are rational numbers},C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/91,college_mathematics,STEM,"If f : (0, 1) → (0, 1], then which of the following could be TRUE?
+I. f is one-to-one and onto.
+II. The image of f is compact.
+III. f is continuous, one-to-one, and onto.",I only,II only,I and II only,I and III only,C,"['none', 'none', 'none']","['No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+college_mathematics/test/97,college_mathematics,STEM,Which of the following circles has the greatest number of points of intersection with the parabola x^2 = y + 4 ?,x^2 + y^2 = 1,x^2 + y^2 = 2,x^2 + y^2 = 9,x^2 + y^2 = 16,C,[],[],[],[],[],[],-,False
+college_mathematics/test/98,college_mathematics,STEM,X is a finite set with the following property: The number of subsets of X that contain exactly 3 elements is 14 more than the number of subsets of X that contain exactly 2 elements. How many subsets of X contain exactly 4 elements?,24,25,28,35,D,[],[],[],[],[],[],-,False

@@ -1,0 +1,333 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+nutrition/test/0,nutrition,Medical,"Which foods tend to be consumed in lower quantities in Wales and Scotland (as of 2020)?
+",Meat,Confectionary,Fruits and vegetables,Potatoes,C,[],[],[],[],[],[],-,False
+nutrition/test/3,nutrition,Medical,"What are the main causes of the obesity epidemic?
+",Increased energy quantity/density and a more sedentary life-style,Decreased leisure time activity,Changes in genetic profiles,None of the options given is correct,A,[],[],[],[],[],[],-,False
+nutrition/test/4,nutrition,Medical,"Which vitamin is a major lipid-soluble antioxidant in cell membranes?
+",Vitamin A,Vitamin D,Vitamin E,Vitamin K,C,[],[],[],[],[],[],-,False
+nutrition/test/6,nutrition,Medical,"Obesity increases the risk of endometrial cancer. Which hormone is thought to mediate this effect?
+",Testosterone,Oestrogen,Insulin-like growth factor-1,Thyroxine,B,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/7,nutrition,Medical,"Which vitamin is required for calcium absorption from the small intestine?
+",Vitamin A,Vitamin D,Vitamin E,Vitamin K,B,[],[],[],[],[],[],-,False
+nutrition/test/10,nutrition,Medical,"A food additive is considered to be safe when:
+",No evidence of human toxicity has been observed over the period of its use,Estimated Daily Intake (EDI) from its presence in food is less than its ADI,Its toxic effects are observed only at doses 100x the EDI,Its benefits outweigh its risks,B,[],[],[],[],[],[],-,False
+nutrition/test/12,nutrition,Medical,"What role do women play in food security?
+",Their main role is preparing meals.,"They play a central role as producers of food, managers of natural resources, income earners and caretakers of household nutrition.","They weed the fields, but never plough or plant them, as only men are strong enough for those activities.",Their efforts focus mainly on vegetable gardens and chickens; men are involved with cereal crops and larger livestock.,B,[],[],[],[],[],[],-,False
+nutrition/test/15,nutrition,Medical,"Which fatty acids found in plasma phospholipids are associated with reduced cardiovascular mortality?
+",Palmitic acid (16:0),Long chain (=20 carbons) saturated and n-3 polyunsaturated fatty acids,á-linolenic acid (18:3),Stearic acid (18:0),B,[],[],[],[],[],[],-,False
+nutrition/test/16,nutrition,Medical,"Crohn's disease:
+",Always affects the colon,May lead to intestinal obstruction,Is best treated surgically,Requires a gluten free diet,B,[],[],[],[],[],[],-,False
+nutrition/test/18,nutrition,Medical,"Which country has undergone the most rapid nutrition transition in the last two decades?
+",China,Sweden,Britain,India,A,[],[],[],[],[],[],-,False
+nutrition/test/19,nutrition,Medical,"Acute binge drinking is associated with?
+",Happy heart syndrome,Home heart syndrome,Beach heart syndrome,Holiday heart syndrome,D,"['none', 'none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/20,nutrition,Medical,"Why are some specific indices of iron status (such as serum ferritin or transferrin receptors) generally considered to be more reliable indices of iron status, than blood haemoglobin levels are?
+",Because they respond more rapidly to changes in iron levels in the diet.,"Because blood haemoglobin levels can also respond to a variety of other factors and insults, such as lead poisoning, chronic disease, etc.",Because the specific iron indices can be measured more accurately and easily.,"Because haemoglobin levels vary with subject age, and between the sexes.",B,[],[],[],[],[],[],-,False
+nutrition/test/21,nutrition,Medical,"What stable isotope is commonly given for the measurement of total body water?
+",Deuterium,Carbon 13,Nitrogen 15,Oxygen 18,A,[],[],[],[],[],[],-,False
+nutrition/test/22,nutrition,Medical,"What are focus areas of nutritional epidemiology?
+",The role of nutritional factors in causing disease in a population.,How changes in food intake in the population can promote good health.,Both of the options given are correct.,None of the options given is correct.,C,[],[],[],[],[],[],-,False
+nutrition/test/25,nutrition,Medical,"Which vitamin is required for synthesis of the blood clotting proteins?
+",Vitamin A,Vitamin D,Vitamin E,Vitamin K,D,[],[],[],[],[],[],-,False
+nutrition/test/26,nutrition,Medical,"What the largest endogenous substrate source in the body?
+",Liver glycogen,Muscle glycogen,Intramuscular lipid,Adipose tissue,D,[],[],[],[],[],[],-,False
+nutrition/test/28,nutrition,Medical,"What is food security?
+",It relates to efforts to prevent terrorists from poisoning food supplies.,It is about ensuring everyone's access to food.,"Its component elements include availability, utilisation, and stability, as well as access.",Food security focuses primarily on ending micronutrient malnutrition.,C,[],[],[],[],[],[],-,False
+nutrition/test/33,nutrition,Medical,"It has been observed that a reduction in family size and improved sanitary condition have led to an increase in allergic conditions. The 'hygiene hypothesis' suggests that
+",The frequent use of antiseptic swipes will reduce allergies,Living on a working farm will help reducing the development of atopic diseases,Particular care must be taken during breast feeding in high risk infants,Living on a working farm will increase the development of atopic diseases,B,[],[],[],[],[],[],-,False
+nutrition/test/34,nutrition,Medical,"Why might some biochemical (eg plasma or serum) indices of micronutrient status give misleading results in people with infections or inflammatory states?
+","Because people who are sick often alter their diets, and may eat less food.",Because the accuracy of some laboratory assays may be compromised in samples from people who are sick.,"Because some metabolic pathways are altered in sick people, which changes their micronutrient requirements.",Because an acute phase reaction results in changes in inter-tissue distributions of certain micronutrients.,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/36,nutrition,Medical,"Which of these factors increases the risk for cancer of the oesophagus?
+",Processed meat,Fruit and vegetables,Salt,Alcohol,D,[],[],[],[],[],[],-,False
+nutrition/test/38,nutrition,Medical,"Higher dietary sodium (salt) intake is generally associated with:
+",Decreased calcium excretion in the urine,Increased risk of fracture,Decreased dietary calcium absorption,Negative calcium balance and bone mineral loss,D,[],[],[],[],[],[],-,False
+nutrition/test/42,nutrition,Medical,"Which of these factors increases the risk for cancer of the stomach?
+",Obesity,Sugar,Salt and salt-preserved foods,Dietary fibre,C,[],[],[],[],[],[],-,False
+nutrition/test/43,nutrition,Medical,"What are the main enzyme systems for catalysing ethanol to acetaldehyde?
+",Alcohol dehydrogenase (ADH),Catalase,"Alcohol dehydrogenase (ADH), cytochrome P450 2E1 (CYP2EI), catalase",cytochrome P450 2E1 (CYP2EI),C,[],[],[],[],[],[],-,False
+nutrition/test/44,nutrition,Medical,"In a healthy person maintaining energy balance in equilibrium (i.e. mathematical equality of energy intake and energy expenditure) is generally achieved on a:
+",day-to-day basis,2-3 day basis,3-4 day basis,1-2 week basis,D,[],[],[],[],[],[],-,False
+nutrition/test/46,nutrition,Medical,"Intestinal lactase deficiency leads to lactose maldigestion which subsequently can lead to lactose intolerance, i.e. causing clinical symptoms. Infants and children normally express sufficient lactase levels as not to experience clinical symptoms. Overall, adults can be classified as lactase-persisters or lactase non-persisters. What is the approximate percentage of Lactase non-persisters worldwide?
+",45%-50%,70%-75 %,10%-15%,30%-35%,B,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/49,nutrition,Medical,"IBS
+",Is primarily a psychological problem,Is a contra-indication to colonoscopy,May be associated with constipation,always resolves with a gluten free diet.,C,[],[],[],[],[],[],-,False
+nutrition/test/50,nutrition,Medical,"The gut microbes metabolize L-carnitine into which metabolite that has been shown increase cardiovascular disease?
+",choline,betaine,Trimethylamine,All of the above,C,[],[],[],[],[],[],-,False
+nutrition/test/52,nutrition,Medical,"Eosinophilic oesophagitis
+",Leads to oesophageal diverticular,May cause oesopgageal obstruction,Is not due to allergy,Benefits from antacid therapy,B,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/54,nutrition,Medical,"Children who are obese should:
+",Follow a different diet to the rest of the family,Eat the same and take more exercise,"Reduce their total energy intake, increase their activity level and reduce their screen time",Eat more fruit and vegetables,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/55,nutrition,Medical,"Which of the treatments below has not demonstrated efficacy in BED
+",Cognitive Behavioural Therapy,"Antidepressants (Fluoxetine, Sertraline)","Antiobesity agents (Orlistat, Sibutramine)","Benzodizepines (Diazepam, Alprazolam)",D,[],[],[],[],[],[],-,False
+nutrition/test/57,nutrition,Medical,"How is iron transported in the circulation from the intestine to the sites of metabolism in the body?
+",As simple Fe2+ in the serum,Bound to albumin,Bound to ferritin,Bound to transferrin,D,[],[],[],[],[],[],-,False
+nutrition/test/59,nutrition,Medical,"Select the single most accurate statement about the absorptive area of the human intestine?
+",The absorptive area is equivalent to that of a tennis court,All of the options given are correct,Changes in motility increase the contact time between nutrients and absorptive surface,"The presence of folds, villi and microvilli on the surface of enterocytes magnifies the absorptive area",B,[],[],[],[],[],[],-,False
+nutrition/test/61,nutrition,Medical,"High intake of which of these dietary components predisposes to accelerated cognitive decline
+",High glycaemic index carbohydrates,A high n-6:n-3 fat ratio,Long chain saturated fats,All of the above,D,[],[],[],[],[],[],-,False
+nutrition/test/65,nutrition,Medical,"What is the main source of protein in the British diet?
+",Fish and fish products,Pulses,Meat and meat products,Milk and milk products,C,[],[],[],[],[],[],-,False
+nutrition/test/66,nutrition,Medical,"What is leptin resistance?
+",Deficiency of leptin caused by a mutation in the leptin gene,Lack of leptin release from the adipose tissue,High concentrations of leptin without reduction in energy intake,Low concentrations of leptin with increased energy intake,C,[],[],[],[],[],[],-,False
+nutrition/test/67,nutrition,Medical,"The two most common causes of foodborne illness in the United States and Europe are:
+",Salmonella and Campylobacter,Listeria and Salmonella,Shigella and Staphlococcus,E. coli STECs and non-STEC subtypes,A,[],[],[],[],[],[],-,False
+nutrition/test/68,nutrition,Medical,"Bariatric surgery is used for obesity treatment but how much is the incidence of type 2 diabetes reduced in obese individuals after surgery?
+",80-90%,No reduction in the incidence,Approximately 50 %,None of the options given is correct,A,[],[],[],[],[],[],-,False
+nutrition/test/69,nutrition,Medical,"What are the disadvantages of identifying under-reporting of usual intake using the doubly labelled water technique?
+",It uses a sophisticated analytical technique,It provides a marker for energy intake only,Mis-reporting of low energy content foods would not be identified,All of the options given are correct,D,[],[],[],[],[],[],-,False
+nutrition/test/70,nutrition,Medical,"Facial flushing is seen in approximately 50% of East Asians and is thought to be due to a deficiency of?
+",ALDH1,ALDH2,ALDH3,ALDH4,B,[],[],[],[],[],[],-,False
+nutrition/test/73,nutrition,Medical,"Ulcerative Colitis
+",Carries a risk of colonic cancer,Can be treated with a LOFFLEX diet,Can be caused by small intestinal bacterial overgrowth,Can be caused by milk intolerance,A,[],[],[],[],[],[],-,False
+nutrition/test/74,nutrition,Medical,"What characteristic is not representative of a type IIb muscle fibre?
+",Low oxidative capacity,High fatigue resistance,High motor unit strength,Fast contractile speed,B,[],[],[],[],[],[],-,False
+nutrition/test/76,nutrition,Medical,"Intestinal failiure:
+",Always requires parenteral nutritional suport,May follow colectomy,Is always permanent,May benefit from sodium supplementation of >=90mmol/l,D,[],[],[],[],[],[],-,False
+nutrition/test/79,nutrition,Medical,"Oral bacterial synthesise extracellular glucans (dextran and mutan) from which host dietary component?
+",glucose,Alpha limit dextrins,Sucrose,polysaccharides,C,[],[],[],[],[],[],-,False
+nutrition/test/80,nutrition,Medical,"What is the definition of overweight?
+",BMI > 25 kg/m2,BMI = 25 kg/m2,BMI 25-29.9 kg/m2,BMI 25-30 kg/m2,C,[],[],[],[],[],[],-,False
+nutrition/test/81,nutrition,Medical,"Pregnancy and lactation is known to:
+",Decrease calcium requirements,Result in bone mineral loss from the skeleton,Decrease the rate of dietary calcium absorption,Affect bone mineral content later in life,B,[],[],[],[],[],[],-,False
+nutrition/test/82,nutrition,Medical,"Observational epidemiology studies have produced useful in identifying health effects of many food contaminants, but not for assessing risk, because:
+",It is never possible to know whether observed effects are caused by the contaminant,Human exposure though food is usually much less than exposures that have been studied,Controlled animal studies provide more reliable information,Reliable dose-response data are difficult to acquire and often unavailable,D,[],[],[],[],[],[],-,False
+nutrition/test/84,nutrition,Medical,"The respiration quotient (RQ):
+",is defined as the ratio of VO2 divided by VCO2.,decreases on a high carbohydrate diet.,increases with fasting.,goes beyond a value of 1.0 when exogenous carbohydrate is converted to endogenous fat.,D,[],[],[],[],[],[],-,False
+nutrition/test/86,nutrition,Medical,"At what stage(s) during pregnancy did in utero exposure to the Dutch Hunger Winter have the biggest effects on DNA methylation in blood cells from the adult offspring?
+",First trimester of pregnancy.,Second trimester of pregnancy.,Third trimester of pregnancy.,Effects were similar at all stages of pregnancy.,A,[],[],[],[],[],[],-,False
+nutrition/test/87,nutrition,Medical,"The body's adjustment of heat production to changes in the plane of nutrition (under- or over-nutrition) and to minimize energy imbalance is known as:
+",Basal metabolic rate,Thermic effect of food,Adaptive thermogenesis,Thermal balance,C,[],[],[],[],[],[],-,False
+nutrition/test/88,nutrition,Medical,"Which drug(s) is/are approved for the treatment of obesity in Europe?
+",Orlistat,Phentermine/Topiramate,Lorcaserin,Naltrexone/Bupropion,A,"['regional', 'regional', 'regional', 'regional']","['Yes', 'Yes', 'Yes', 'No']","[{'end': 69, 'label': 'Geographic', 'score': None, 'start': 21}, {'end': 68, 'label': 'Geographic', 'score': None, 'start': 62}, '-', '-']",[],"['Europe', 'Europe', 'Europe', 'Europe']",[],CS,True
+nutrition/test/89,nutrition,Medical,"In order to achieve optimal nutritional status it is recommended that older adults consume:
+",A high energy content diet.,A high nutrient dense diet.,A low energy content diet.,A daily antioxidant supplement.,B,[],[],[],[],[],[],-,False
+nutrition/test/92,nutrition,Medical,"What is the density of fat free mass?
+",0.900 g/cm3,0.730 g/cm3,1.100 g/cm3,None of the above,C,[],[],[],[],[],[],-,False
+nutrition/test/93,nutrition,Medical,"In an epidemiological context, what is the population at risk?
+",The proportion of a population that engage in risky behaviours.,The group of people that may experience the outcome we want to study.,A group of people participating in a study that may be harmful to them.,The population group with the highest relative risk of disease.,B,[],[],[],[],[],[],-,False
+nutrition/test/94,nutrition,Medical,"How will climate change affect future food security?
+","It will have negative impacts in most developing countries because of the increased frequency of droughts, storms and floods.","The impact will be positive, because drier weather will mean less habitat for malaria mosquitoes, so fewer workers will be sick at harvest time.",The impact will be positive because there will be more carbon dioxide available for plant photosynthesis.,There currently is no scientific consensus as to whether climate change is occurring or whether it will over the next 50 years.,A,[],[],[],[],[],[],-,False
+nutrition/test/95,nutrition,Medical,"What is a major limitation of using BMI (body mass index) as a method of body fat measurements?
+",It is not an accurate measure for average people,It is more accurate than height-weight tables,It does not distinguish between fat and fat free mass,All of the above,C,[],[],[],[],[],[],-,False
+nutrition/test/97,nutrition,Medical,"Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:
+",lowering intramuscular lipid storage,Increasing liver glycogen content,Increasing muscle glycogen use during exercise,Increasing intramuscular lipid use during exercise,D,[],[],[],[],[],[],-,False
+nutrition/test/100,nutrition,Medical,"In adolescence:
+",Brain growth is faster than at any other stage in life,Peak bone mass occurs before the growth spurt ends,Girls physiologically increase their percentage body fat,Type 2 obesity related diabetes remains a very rare problem,C,[],[],[],[],[],[],-,False
+nutrition/test/101,nutrition,Medical,"In which form is selenium found in the 25 human selenoproteins?
+",Selenophosphate,Selenocysteine,Selenohistidine,Selenate,B,[],[],[],[],[],[],-,False
+nutrition/test/102,nutrition,Medical,"On a global scale, trends are suggesting that with rising incomes and urbanization we are seeing a rise in which food commodities?
+",Roots and Tubers,Fruits and vegetables,Beans and lentils,Meat and Dairy products,D,[],[],[],[],[],[],-,False
+nutrition/test/104,nutrition,Medical,"It is possible to reduce (though not eliminate) information bias in assessment of dietary intake by
+",gathering information about many different aspects of people's dietary habits.,"collecting data about dietary intake at the onset of a study, before people have experienced symptoms of disease.",collecting data on all possible confounders.,making sure that the study sample is representative of the population.,B,[],[],[],[],[],[],-,False
+nutrition/test/105,nutrition,Medical,"To characterize a binge eating episode one must investigate the presence of:
+","If patients feel that their eating habits are chaotic, regardless of meal size.",The consumption of large quantities of sweets between meals.,A subjective component of lack of control and an objective component of large consumption of food in a discrete period of time,The feeling that one cannot choose the type of food eaten even if their quantity is kept under control.,C,[],[],[],[],[],[],-,False
+nutrition/test/106,nutrition,Medical,"Which of the factors below is NOT considered a risk factor for Eating Disorders
+",Perfectionism traits,Female gender,Dieting during adolescence,Parental anxiety,D,[],[],[],[],[],[],-,False
+nutrition/test/108,nutrition,Medical,"Of the classes of dietary fatty acids which have the most beneficial effect on plasma LDL cholesterol levels?
+",n-3 and n-6 polyunsaturated fatty acids,Saturated and trans unsaturated fatty acids,Monounsaturated fatty acids,Both a and c,D,[],[],[],[],[],[],-,False
+nutrition/test/110,nutrition,Medical,"How many kcal are there in one gram of ethanol?
+",23.5 kJ or 5.8 kcal per g,19.7 kJ or 4.1 kcal per g,29.7 kJ or 7.1 kcal per g,36.5 kJ or 8.1 kcal per g,C,"['none', 'regional', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-']",[],['North America'],['United Kingdom (UK)'],CA,True
+nutrition/test/111,nutrition,Medical,"Colonic microbiome:
+",Is present in babies in utero,Is a cause of eosinopjhilic oesophagitis,Is easily changed by probiotic supplementation,May be changed with consumption of oligo-saccharides,D,[],[],[],[],[],[],-,False
+nutrition/test/113,nutrition,Medical,"What nutritional strategies will not improve performance during prolonged endurance type exercise?
+",Carbohydrate loading,Tapering,The classic glycogen loading regime,Exogenous carbohydrate ingestion during exercise,C,[],[],[],[],[],[],-,False
+nutrition/test/114,nutrition,Medical,"Which body composition method would you use to measure body mineral content?
+",Magnetic Resonance Imaging,Dual-energy X-ray absorptiometry,Isotope dilution,Skinfold Thickness,B,[],[],[],[],[],[],-,False
+nutrition/test/115,nutrition,Medical,"These factors increase risk of osteoporotic fracture:
+",High bone mineral density,High body weight,High lean mass,Poor muscle strength,D,[],[],[],[],[],[],-,False
+nutrition/test/116,nutrition,Medical,"Fruit and vegetable consumption
+",Has been associated with greater bone mineral loss in observational studies,"Has an uncertain relationship with skeletal health because research studies are confounded by associated lifestyle factors such as smoking, exercise and alcohol consumption",Has consistently resulted in less bone loss in supplementation studies,Has large effects on bone mineral loss,B,[],[],[],[],[],[],-,False
+nutrition/test/117,nutrition,Medical,"Which are the FIVE main series of apoproteins that have been identified?
+","apoA, apoB, apoC, apoD, and apoE","apoA, apo(a), apoB, apoC and apoE","apoA, apoB, apoC, apo E, and apoL","apoB, apoC, apoD, apoE and apoM",B,[],[],[],[],[],[],-,False
+nutrition/test/119,nutrition,Medical,"Nutrients may pose health risks:
+",When intakes exceed established ULs (Upper Levels),At any level greater than a recommended dietary intake,Only when intakes are less than those required for nutritional benefits,Under no known conditions of usual intake,A,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/120,nutrition,Medical,"The Atherogenic Lipoprotein Phenotype (ALP) is a collection of which lipoprotein abnormalities?
+","Reduced levels of HDL, a high proportion of small dense LDL and raised triglycerides","Reduced levels of HDL, a high proportion of small dense LDL and normal triglycerides","Raised levels of HDL, a high proportion of small dense LDL and raised triglycerides","Reduced levels of HDL, a low proportion of small dense LDL and raised triglycerides",A,[],[],[],[],[],[],-,False
+nutrition/test/123,nutrition,Medical,"What dietary component has been shown to improve hypertension in humans?
+",potassium,sodium,polyunsaturated fatty acids,cholesterol,A,[],[],[],[],[],[],-,False
+nutrition/test/124,nutrition,Medical,"Fats normally contain triacylglycerols at concentrations of:
+",75-95%,50- 75%,> 95%,< 50%,C,[],[],[],[],[],[],-,False
+nutrition/test/127,nutrition,Medical,"The test for checking mean plasma glucose concentration over the previous 8-10 weeks is:
+",Hemoglobin A1c,Oral glucose tolerance test (OGTT),Fructosamine test,Fasting plasma glucose concentration,A,[],[],[],[],[],[],-,False
+nutrition/test/128,nutrition,Medical,"Which one of these organs has the lowest energy expenditure per unit of body mass (kg)?
+",Brain,Kidney,Liver,Skeletal Muscle,D,[],[],[],[],[],[],-,False
+nutrition/test/129,nutrition,Medical,"Are GM foods a valuable tool with which to address global food security and climate change?
+","No, because they may cause cancer and have other unknown health effects thus making them unacceptable to consumers","Yes, because they can provide us with a more abundant and economical food supply for the world as well as continued improvement in nutritional quality","Yes, because they are cheaper than non-GM foods","No, because GM foods cannot adapt to the rate of climate change",B,[],[],[],[],[],[],-,False
+nutrition/test/130,nutrition,Medical,"What do flavonoids (polyphenols), including isoflavones (phytoestrogens), inositol phosphates (phytates), lignans (phytoestrogens), isothiocyanates, indoles, phenols and sulphides and thiols, have in common?
+",They are all sources of fibre,They are all derived from plant foods,They are all vitamins,They are all nutrients,B,[],[],[],[],[],[],-,False
+nutrition/test/137,nutrition,Medical,"What is the estimated global prevalence of untreated dental caries?
+",20%,40%,60%,80%,B,[],[],[],[],[],[],-,False
+nutrition/test/138,nutrition,Medical,"Bone mineral accretion
+",Is rapid in the first 10 weeks of foetal life,Is slow in infancy,"In childhood, adolescence and young adulthood predicts risk of fracture in old age",Is particularly high after the menopause in women,C,[],[],[],[],[],[],-,False
+nutrition/test/141,nutrition,Medical,"Deficiency of thiamin in alcoholics leads to
+",Wernicke-Korsakoff syndrome,Cushing syndrome,Fatty liver,Hypogonadism,A,[],[],[],[],[],[],-,False
+nutrition/test/142,nutrition,Medical,"In human DNA, which nucleotide base is methylated at the 5' position?
+",Adenosine,Thymine,Cytosine,Guanine,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/145,nutrition,Medical,"Basal Metabolic Rate (BMR):
+",is measured in comfortable sitting position,is unaltered in hypothyroidism and hyperthyroidism,Is higher after weight gain because part of the excess weight is fat-free mass.,is not altered after weight loss.,C,[],[],[],[],[],[],-,False
+nutrition/test/149,nutrition,Medical,"Which of these factors is associated with an increase in the risk for prostate cancer?
+",Insulin-like growth factor-1,Dietary fat,Alcohol,Salt,A,[],[],[],[],[],[],-,False
+nutrition/test/152,nutrition,Medical,"What is the basic functional unit of skeletal muscle tissue?
+",the muscle fibre,the sarcomere,the myofibril,the sarcoplasmic reticulum,B,[],[],[],[],[],[],-,False
+nutrition/test/155,nutrition,Medical,"What are histones?
+",Lipids,Carbohydrates,Nucleotides,Proteins,D,[],[],[],[],[],[],-,False
+nutrition/test/157,nutrition,Medical,"Alcohol is a major risk factor for cancer development. Which alcohol metabolite plays a prominent role in cancer development?
+",fatty acid ethyl esters (FAEE),acetate,acetaldehyde,alcohol,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/158,nutrition,Medical,"The body mass index (BMI) of vegetarians differs on average from meat-eaters by how much?
+",3 units of BMI,0.5 units of BMI,1 unit of BMI,2 units of BMI,C,[],[],[],[],[],[],-,False
+nutrition/test/160,nutrition,Medical,"Cholesterol and fatty acids absorbed from the intestinal lumen are packaged into which types of lipoproteins and secreted from the enterocytes into the lymph?
+",Chylomicrons and HDL,Chylomicrons and VLDL,HDL and LDL,VLDL and HDL,A,[],[],[],[],[],[],-,False
+nutrition/test/164,nutrition,Medical,"The intake of which minerals is not affected by high intakes of foods containing phytic acid?
+",Calcium,Potassium,Zinc,Iron,B,[],[],[],[],[],[],-,False
+nutrition/test/170,nutrition,Medical,"What dietary pattern shows most promise in preventing age related cognitive decline
+",The Western diet,The Mediterranean diet,Neither,Both,B,[],[],[],[],[],[],-,False
+nutrition/test/171,nutrition,Medical,"What enzyme is responsible for copying methylation marks from the parental to the daughter strand of DNA during replication?
+",DNMT1,DNMT3a,DNMT3b,DNMT3L,A,[],[],[],[],[],[],-,False
+nutrition/test/172,nutrition,Medical,"What is the worldwide prevalence of obesity?
+",11%,13%,15%,39%,B,[],[],[],[],[],[],-,False
+nutrition/test/173,nutrition,Medical,"Lactose
+",Is always the cause of milk intolerance,Cannot be digested in the human gut,Intolerance is present in up to 20% of the population,Is excluded on a low FODMAP diet,D,[],[],[],[],[],[],-,False
+nutrition/test/174,nutrition,Medical,"How many stages within the food supply chain can food availability and consumption be measured?
+",10,5,2,4,B,[],[],[],[],[],[],-,False
+nutrition/test/176,nutrition,Medical,"The vitamins which are lost most readily during cooking are:
+",vitamin E and niacin,vitamin D and vitamin E,riboflavin and vitamin C,vitamin C and thiamin,D,[],[],[],[],[],[],-,False
+nutrition/test/177,nutrition,Medical,"Doses of substances used in animal toxicity studies are usually many times greater than those experienced by people because:
+",Animals are generally much less sensitive than people,Such tests can detect only very large risks because of the fact that only small numbers of animals can be used,It is difficult in such studies to determine whether the observed toxic effects were caused by the substance,It is the only way to ensure results are applicable to people,B,[],[],[],[],[],[],-,False
+nutrition/test/178,nutrition,Medical,"Risk management for chemical contaminants of food generally relies on:
+",Banning of the contaminant from food,Allowing levels of contamination based on what manufacturers believe is achievable,Banning any food found to contain detectable amounts of the contaminants,Prohibiting the introduction into commerce food containing contaminants at levels greater than a specified level (a risk-based MRL or tolerance),D,[],[],[],[],[],[],-,False
+nutrition/test/179,nutrition,Medical,"The effects of iron on certain aspects of socio-emotional development (shyness, orientation/engagement and response to unfamiliar pictures) is due to:
+",The role of iron in myelination,The role of iron in neurochemistry,The role of iron in dopamine production,None of the above,C,[],[],[],[],[],[],-,False
+nutrition/test/180,nutrition,Medical,"Insulin deficiency is associated with
+",Reduced lipolysis,Increased ketogenesis,Reduced gluconeogenesis,Reduced proteolysis,B,[],[],[],[],[],[],-,False
+nutrition/test/182,nutrition,Medical,"On an average daily basis, the gross energy intake of a healthy woman is 9279 kJ, the energy content of her faeces and urine are 647 kJ and 318 kJ, respectively. Her average daily digestible energy intake and metabolisable energy intake would be, respectively,:
+",647 kJ and 318 kJ,9279-318 kJ and 9279-647 kJ,9279+318 kJ and 9279+647 kJ,9279-647 kJ and 9279-(647+318) kJ,D,[],[],[],[],[],[],-,False
+nutrition/test/183,nutrition,Medical,"When epidemiologists judge the evidence to establish possible causes of a health outcome, they consider
+",The estimated strength of the association between an exposure and the outcome.,Evidence that the exposure of interest has appeared before the outcome.,Evidence showing that reductions in the exposure level will reverse the risk of the outcome.,All of the options given.,D,[],[],[],[],[],[],-,False
+nutrition/test/184,nutrition,Medical,"Women who are planning a pregnancy are recommended to take a supplement of 400ìg folic acid/ day before and until the end of the first trimester of pregnancy. What effect does such supplementation have on methylation of the imprinted gene IGF2 in the resulting children?
+",No effect.,Methylation of IGF2 is increased.,Methylation of IGF2 is decreased.,The effect depends on whether the child is male or female.,B,[],[],[],[],[],[],-,False
+nutrition/test/185,nutrition,Medical,"Occasionally infants are born without a normally functioning immune system. What are the signs most suggestive of a severe combined immunodeficiency?
+",Recurrent severe infections,Family history of unexplained death in infancy,Generalised spread of the Tuberculosis strain BCG after vaccination,All of the options given are correct,D,[],[],[],[],[],[],-,False
+nutrition/test/186,nutrition,Medical,"Fibre supplements
+",May be helpful in diverticular disease,Are always easily fermented by colonic bacteria,Are usually derived from soluble fibre sources,Should be avoided in constipation,A,[],[],[],[],[],[],-,False
+nutrition/test/187,nutrition,Medical,"Which life-style factors do not confound the interpretation of the health of vegetarians compared with meat-eaters?
+",Smoking habit,Social class/position,Physical activity,Age,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/192,nutrition,Medical,"What difference will urbanisation make for hunger and malnutrition?
+",No significant difference; low-income urban and rural people face similar constraints in accessing food and consume similar diets in developing countries.,It will reduce poverty and hunger because these are almost entirely concentrated in rural areas.,"Urban dwellers depend more than rural people on purchases to acquire food, have little opportunity to grow their own food, and so are much more vulnerable to food price increases.","Poor city folk eat mainly sorghum, millet, maize and root crops, so a lot more of those foods will need to be produced as the world urbanises.",C,[],[],[],[],[],[],-,False
+nutrition/test/193,nutrition,Medical,"Which membrane fatty acids are precursors for eicosanoids?
+",C20 and C22 saturated fatty acids,C18 and C22 polyunsaturated fatty acids,C20 and C22 monounsaturated fatty acids,C20 and C22 polyunsaturated fatty acids,D,"['none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/195,nutrition,Medical,"The most direct method for measuring body composition is:
+",underwater weighing,Skinfold test,Body mass index,weight,A,[],[],[],[],[],[],-,False
+nutrition/test/196,nutrition,Medical,"What type of diet is recommended for weight maintenance?
+",Low protein and low GI,High protein and high GI,Low protein and high GI,High protein and low GI,D,[],[],[],[],[],[],-,False
+nutrition/test/197,nutrition,Medical,"The Worldwide HIV/AIDS campaigns have made significant progress over the last years. The HIV infection rates in Europe
+",Have been significantly decreasing,Have been unchanged,Have been increasing,Are unknown,B,[],[],[],[],[],[],-,False
+nutrition/test/198,nutrition,Medical,"For certain micronutrients, 'biochemical functional indices' have been developed, to assess the adequacy of one or more biochemical pathways that respond predictably to changes in status of that specific micronutrient. One example is serum methylmalonic acid as a biochemical functional index for vitamin B12 status. What is the primary aim of such biochemical functional index measurements?
+",To achieve a better estimate of the dietary intake of the micronutrient.,"To overcome interference, eg by acute phase-linked effects.","To correct for nutrient losses, e.g. through urinary excretion.","To provide an additional status estimate that can probe critical tissue adequacy, and hence the risk of consequent clinical disease or physiological malfunction.",D,[],[],[],[],[],[],-,False
+nutrition/test/200,nutrition,Medical,"All babies lose weight after birth, you should be concerned when:
+",Weight loss is 5%,Weight loss is < than 10%,Birth weight is not regained by day 7,Weight loss in > than 10% or birth weight is not regained by day 14,D,[],[],[],[],[],[],-,False
+nutrition/test/202,nutrition,Medical,"Risk assessment is applied to data on toxicity and human exposure to:
+","Estimate the likelihood, or probability, of a toxic effect on exposed humans",To support risk management decisions for food substances,To derive Allowable Daily Intakes,All of the above,A,[],[],[],[],[],[],-,False
+nutrition/test/203,nutrition,Medical,"What is the typical body composition of a normal weight young adult man?
+","Fat = 17%, Fat Free Mass=83%, Intracellular Fluid= 40%, Extracellular Fluid= 20%","Fat = 83%, Fat Free Mass=40%, Intracellular Fluid= 17%, Extracellular Fluid= 20%","Fat = 20%, Fat Free Mass=17%, Intracellular Fluid= 40%, Extracellular Fluid= 83%","Fat = 40%, Fat Free Mass=20%, Intracellular Fluid= 17%, Extracellular Fluid= 83%",A,[],[],[],[],[],[],-,False
+nutrition/test/204,nutrition,Medical,"The critical pH below which demineralisation of tooth enamel occurs is usually around:
+",6,5.7,5.5,5,C,[],[],[],[],[],[],-,False
+nutrition/test/205,nutrition,Medical,"The supplementation of diet with which fat soluble vitamins has been shown to reduce cardiovascular disease?
+",Vitamin A and D,Vitamin A and K,Vitamin D and E,None of the above,D,[],[],[],[],[],[],-,False
+nutrition/test/206,nutrition,Medical,"Vitamin D deficiency can often be found as a single nutrient deficiency, that is, in an otherwise well-nourished person. The main reason this can happen is because:
+",Foods containing large amounts of vitamin D are eaten by both poor and wealthy people according to various cultural reasons.,The content of vitamin D in foods depends on the soil in which the food was grown so is not related to wealth or age.,Most vitamin D in the body does not come from food so access to food is not an important determinant of vitamin D status.,Diets containing sufficient other nutrients to promote growth can increase the requirement of vitamin D so that it becomes limiting.,C,[],[],[],[],[],[],-,False
+nutrition/test/209,nutrition,Medical,"Current recommendations are that:
+",All babies should be exclusively breastfed until around 6 months,Solids should be introduced at 4 months of age,Cow's milk is appropriate for all children from 6 months,Bottle feeding is more appropriate for babies than breast feeding,A,"['cultural', 'regional', 'cultural', 'cultural', 'regional']","['Yes', 'No', 'Yes', 'No', 'Yes']","['-', '-', '-', '-', '-']",['Western Culture'],[],[],CS,True
+nutrition/test/210,nutrition,Medical,"Food allergies:
+",Are avoidable if the allergic agents are not allowed to exceed specified limits,Are a form of food intolerance,Usually occur only after an individual has been sensitized by prior exposure,Are uncomfortable but generally of little medical concern,C,[],[],[],[],[],[],-,False
+nutrition/test/213,nutrition,Medical,"What is meant by the term 'functional isolation'?
+",A child that is only developing one single function at the time,A child that is isolated from proper nutrition and therefore not developing adequately,"A malnourished, apathetic child that is not receiving the same stimulation from the environment affecting his/her development negatively",None of the above,C,[],[],[],[],[],[],-,False
+nutrition/test/215,nutrition,Medical,"What is the prevalence of alcoholic myopathy in alcoholics
+",30 to 50%,40 to 60%,20 to 40%,10 to 30%,B,[],[],[],[],[],[],-,False
+nutrition/test/216,nutrition,Medical,"Molecules of natural polyunsaturated fatty acids in vegetable oils contain:
+",18 carbon atoms with one carbon-carbon double bond in the cis configuration,20 carbon atoms with at least two carbon-carbon double bonds in the cis configuration,18 carbon atoms with at least two carbon-carbon double bonds in the trans configuration,18 carbon atoms with at least two carbon-carbon double bonds in the cis configuration,D,[],[],[],[],[],[],-,False
+nutrition/test/219,nutrition,Medical,"The WHO made a strong recommendation that the maximum intake of free sugars by individuals within populations should be
+",<5%,5-10%,<10%,>10%,C,[],[],[],[],[],[],-,False
+nutrition/test/220,nutrition,Medical,"Rickets of prematurity is associated with:
+",Hypocalcaemic convulsions,Use of frusemide diuretic,Vitamin D deficiency in the mother,All of the options given are correct,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/223,nutrition,Medical,"Since the 1996 World Food Summit, how has the number of food insecure people in the world changed?
+",The Summit's goal of cutting the number of hungry people in half by 2015 was achieved.,"The number decreased, but not by nearly enough to meet the Summit's goal.",The number increased slightly.,"Because of rising food prices, the number increased dramatically.",B,"['none', 'regional', 'none']","['No', 'Yes', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/225,nutrition,Medical,"What caused the food-price spike of 2007-2008?
+",Long-term neglect of agricultural and rural development caused the spike.,The use of food crops to produce biofuel caused food prices to rise.,It was caused by commodity price speculation.,All of the above were among the causes.,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/228,nutrition,Medical,"The risk factors for type 2 diabetes mellitus include:
+",family history,being overweight,high intake of dietary fat,All of the options listed are correct,D,[],[],[],[],[],[],-,False
+nutrition/test/229,nutrition,Medical,"The World Health Organization recommends zinc supplements for which groups of people?
+",Pregnant and lactating women,Children with severe malnutrition or diarrhoea,All children in low income areas with high prevalence of stunting,Elderly people with low incomes,B,[],[],[],[],[],[],-,False
+nutrition/test/231,nutrition,Medical,"Confounding is a particular challenge in nutritional epidemiology because
+",people change their diets over time.,it is difficult to measure people's diets accurately in large studies.,the are no good methods to adjust for confounding in nutritional studies.,"different dietary components are correlated with each other, making it difficult to separate their effects.",D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/232,nutrition,Medical,"Infants born to mothers who are vegan may be at increased risk of deficiency of which nutrient?
+",Vitamin C,Folate,Vitamin B12,Calcium,C,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/236,nutrition,Medical,"Gluten
+",May increase carbohydrate malabsorption,Is a constituent of avenin,Is the main protein in maize,May be contra-indicated in UC,A,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/237,nutrition,Medical,"Adaptive thermogenesis refers to:
+",A decrease in heat loss when exposed to cold,A decrease in non-shivering thermogenesis when exposed to cold,An increase in basal metabolic rate that is not fully explained by a change in body composition during chronic overfeeding,A decrease in spontaneous physical activity during chronic overfeeding.,C,[],[],[],[],[],[],-,False
+nutrition/test/239,nutrition,Medical,"Assessing growth in routine practice should be:
+",Height only,Weight only,Weight and height,Head circumference,C,[],[],[],[],[],[],-,False
+nutrition/test/240,nutrition,Medical,"The daily amount of protein oxidized in the body of a person spending 24 hours in a respiratory chamber can be determined from his/her:
+",O2 consumption alone,CO2 production alone,Breath collection,Total urinary nitrogen excretion alone,D,[],[],[],[],[],[],-,False
+nutrition/test/241,nutrition,Medical,"What is the primary lipoprotein secreted from the liver that is at least partially composed of dietary derived lipids?
+",Chylomicrons,HDL,VLDL,LDL,C,[],[],[],[],[],[],-,False
+nutrition/test/245,nutrition,Medical,"What are the limitations of food balance sheets? (select all that apply)?
+",No account is taken of waste or losses of food,Consumption estimates give higher values than those derived from other types of surveys,No information is available on the distribution of consumption within a country,All of the options given are correct,D,[],[],[],[],[],[],-,False
+nutrition/test/247,nutrition,Medical,"A deficiency of which vitamin has been associated with enamel defects and increased risk of dental caries?
+",Vitamin A,Folic acid,Vitamin C,Vitamin D,D,[],[],[],[],[],[],-,False
+nutrition/test/248,nutrition,Medical,"Which of these factors reduces the risk for cancer of the colorectum?
+",Vitamin C,Dietary fibre,Alcohol,Oestrogen,B,[],[],[],[],[],[],-,False
+nutrition/test/250,nutrition,Medical,"Which of two hormones act on the hypothalamus to increase satiety and hunger, respectively?
+",Leptin and insulin,Leptin and ghrelin,Ghrelin and leptin,Ghrelin and insulin,B,"['none', 'none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/251,nutrition,Medical,"What is the phenotype of a congenital disorder impairing the secretion of leptin?
+","Normal energy intake, normal body weight and hyperthyroidism","Obesity, excess energy intake, normal growth and hypoinsulinaemia","Obesity, abnormal growth, hypothyroidism, hyperinsulinaemia","Underweight, abnormal growth, hypothyroidism, hyperinsulinaemia",C,[],[],[],[],[],[],-,False
+nutrition/test/252,nutrition,Medical,"What are the effects of globalisation on food security?
+",Wealthy countries subsidies and trade barriers make it difficult for developing countries to take advantage of the potential of globalisation for advancing food security.,"World Trade Organisation rules do not cover agriculture, so globalisation really has no bearing on food security.",Supermarkets are so far the only way in which food and agriculture have experienced globalisation.,Developing countries need to create publicly-owned food reserves in order to realise the potential benefits.,A,"['none', 'none', 'regional', 'regional']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CS,True
+nutrition/test/256,nutrition,Medical,"Which of these factors increases the risk for lung cancer?
+",Saturated fat,Obesity,High dose ß-carotene supplements,Alcohol,C,[],[],[],[],[],[],-,False
+nutrition/test/257,nutrition,Medical,"According to the recommendations for the nutritional management of patients with diabetes, the consumption of saturated fat should be:
+",<10% of total daily energy,<12%,<15%,<16%,A,[],[],[],[],[],[],-,False
+nutrition/test/258,nutrition,Medical,"When using bioelectrical impedance for measuring body composition, why does an electrical current travel faster through muscle than it does through fat?
+",Muscle contains less water than fat,Muscle contains more water than fat,Muscle weighs more than fat,Muscle weighs less than fat,B,[],[],[],[],[],[],-,False
+nutrition/test/261,nutrition,Medical,"How many calories should a woman eat each day during pregnancy?
+",Less than 200 kCal,An additional 200 kCal in the third trimester only,An additional 200 kCal throughout pregnancy,No change from pre-pregnant levels,B,[],[],[],[],[],[],-,False
+nutrition/test/265,nutrition,Medical,"Deficiency of vitamin A in children causes:
+",Goitre,Poor cognitive development,Poor bone growth,Increased risk of mortality,D,[],[],[],[],[],[],-,False
+nutrition/test/266,nutrition,Medical,"Which of these factors increases the risk for postmenopausal breast cancer?
+",Red meat,Dietary fat,Fish,Obesity,D,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/271,nutrition,Medical,"The thermic effect of food
+",is substantially higher for carbohydrate than for protein,is accompanied by a slight decrease in body core temperature.,is partly related to sympathetic activity stimulation in the postprandial phase,is not attenuated by food malabsorption.,C,[],[],[],[],[],[],-,False
+nutrition/test/272,nutrition,Medical,"What is the primary method of dietary assessment used in epidemiological studies?
+",Weighed diary,Unweighed diary,24-hour recall,Food frequency questionnaire,D,[],[],[],[],[],[],-,False
+nutrition/test/273,nutrition,Medical,"Calculate the body mass index (BMI) for a patient whose height is 1.75 m and whose weight is 99 kg.
+",29,32,39,43,B,[],[],[],[],[],[],-,False
+nutrition/test/275,nutrition,Medical,"How much dietary protein should athletes consume daily?
+",<0.8 g protein per kg bodyweight per day,0.8-1.2 g protein per kg bodyweight per day,1.2-1.7 g protein per kg bodyweight per day,>2.0 g protein per kg bodyweight per day,C,[],[],[],[],[],[],-,False
+nutrition/test/276,nutrition,Medical,"Which vitamins are important in lowering circulating homocysteine levels
+",Vitamin D,Vitamin C,Vitamin A,"Folate, vitamins B6 and B12",D,[],[],[],[],[],[],-,False
+nutrition/test/280,nutrition,Medical,"Which diseases are not less frequent among vegetarians?
+",Respiratory diseases,Colorectal cancer,Ischaemic heart disease,Diverticular disease,A,[],[],[],[],[],[],-,False
+nutrition/test/282,nutrition,Medical,"Although theoretically any food protein could act as a food allergen, there are eight major food allergens in Europe and North America which account for most of the allergic triggers observed in childhood. Which of the allergens pairings contains an allergen, which is not part of the group of eight major allergens?
+","Cow's milk, egg","Mustard seeds, lamb,","Soy, peanuts","Fish, shellfish",B,[],[],[],[],[],[],-,False
+nutrition/test/283,nutrition,Medical,"Prenatal programming:
+",Explains the rise in obesity in the pre-school years,May be effected through the epigenetic effects of intrauterine nutritional inadequacy,Causes high blood pressure in young children,Only affects low birth weight children,B,[],[],[],[],[],[],-,False
+nutrition/test/290,nutrition,Medical,"Which vitamin is required for vision in dim light?
+",Vitamin A,Vitamin D,Vitamin E,Vitamin K,A,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/292,nutrition,Medical,"Additional dietary protein may:
+",Increase risk of hip fracture,Decrease calcium excretion in the urine,Stimulate production of insulin-like growth hormone,Reduce muscle mass and strength,C,[],[],[],[],[],[],-,False
+nutrition/test/293,nutrition,Medical,"Greater milk consumption
+",Has been reported to be associated with a higher incidence of fracture and higher mortality in a few studies,During puberty seems to be associated with higher bone mineral density in later life,Is consistently associated with a lower rate of fractures,In countries with the highest rate of fracture suggests that milk consumption is beneficial to the skeleton.,A,[],[],[],[],[],[],-,False
+nutrition/test/295,nutrition,Medical,"What should elite athletes ideally consume during prolonged high intensity exercise (>2.5 hours)?
+",60 g glucose per hour,60 g glucose plus fructose per hour,90 g glucose per hour,90 g glucose plus fructose per hour,D,"['none', 'none', 'none', 'none', 'none', 'none', 'none']","['No', 'No', 'No', 'No', 'No', 'No', 'No']","['-', '-', '-', '-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/296,nutrition,Medical,"What endogenous substrate source provides the most energy during moderate to high intensity exercise?
+",Liver glycogen,Muscle glycogen,Intramuscular lipid,Adipose tissue lipid,B,[],[],[],[],[],[],-,False
+nutrition/test/297,nutrition,Medical,"How does agricultural research help reduce hunger and poverty?
+",Transnational private-sector firms are the main source of research oriented towards poor farmers and consumers.,Agricultural research mainly benefits commercial farmers in developed countries.,Research focused on the problems of poor farmers and consumers is a 'public good' with little profit potential but high social benefits; public investment is needed to support it.,Pro-poor research should only focus on organic farming.,C,[],[],[],[],[],[],-,False
+nutrition/test/298,nutrition,Medical,"Severe acute malnutrition in young children is defined as:
+",Weight-for-age Z score <-3,Height-for-age Z score <-3 and oedema,Height-for-age Z score <-3 or weight-for-height Z score <-3 or oedema,Height-for-age Z score <-3 or weight-for-age Z score <-3 or oedema,C,[],[],[],[],[],[],-,False
+nutrition/test/299,nutrition,Medical,"What are the main metabolites of alcohol metabolism?
+","Acetaldehyde, acetate,","Pyruvate, beta-hydroxybutyrate,","Acetyl-CoA, lipids,","Acetone, lactate",A,"['none', 'none', 'none', 'none']","['No', 'No', 'No', 'No']","['-', '-', '-', '-']",[],[],[],CA,True
+nutrition/test/301,nutrition,Medical,"Are most developing-country farmers engaged in subsistence or commercial production?
+",Almost all are subsistence farmers.,"Very few engage in subsistence production, instead selling almost all of their produce on the market.",Virtually all small-scale producers are engage in some self-provisioning and market sales.,37% engage in pure subsistence production.,C,[],[],[],[],[],[],-,False
+nutrition/test/304,nutrition,Medical,"From the list of oral microorganisms, which is primarily responsible for the initiation of dental caries?
+",Mutans streptococci,bifidobacteria,Lactobacilli,P. gingivalis,A,[],[],[],[],[],[],-,False

@@ -1,0 +1,5 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+conceptual_physics/test/75,conceptual_physics,STEM,All of the following are electromagnetic waves EXCEPT,microwaves,light waves,X-rays,None is outside the family; all are electromagnetic waves,D,[],[],[],[],[],[],-,False
+conceptual_physics/test/85,conceptual_physics,STEM,The flight of a blimp best illustrates,Archimedes’ principle,Pascal’s principle,Bernoulli’s principle,Boyle’s law,A,[],[],[],[],[],[],-,False
+conceptual_physics/test/87,conceptual_physics,STEM,The discrete orbits of electrons are best understood when modeled by,high-speed particles,particles on springs,waves,photons,C,[],[],[],[],[],[],-,False
+conceptual_physics/test/146,conceptual_physics,STEM,Which of these temperatures is likely when a container of water at 20°C is mixed with water at 28°C?,19°C,22°C,30°C,Higher than 30°C,B,[],[],[],[],[],[],-,False

@@ -1,0 +1,13 @@
+sample_id,subject,subject_category,question,option_a,option_b,option_c,option_d,answer,required_knowledge,time_sensitive,reference,culture,region,country,cultural_sensitivity_label,is_annotated
+high_school_computer_science/test/32,high_school_computer_science,STEM,"A programmer wrote the code segment below to display the average of all the elements in a list called numbers. There is always at least one number in the list.
+ Line 1: count ← 0
+ Line 2: sum ← 0
+ Line 3: FOR EACH value IN numbers
+ Line 4: {
+ Line 5: count ← count + 1
+ Line 6: sum ← sum + value
+ Line 7: average ← sum / count
+ Line 8: }
+ Line 9: DISPLAY (average)
+
+ The programmer wants to reduce the number of operations that are performed when the program is run. Which change will result in a correct program with a reduced number of operations performed?",Interchanging line 1 and line 2,Interchanging line 5 and line 6,Interchanging line 6 and line 7,Interchanging line 7 and line 8,D,[],[],[],[],[],[],-,False

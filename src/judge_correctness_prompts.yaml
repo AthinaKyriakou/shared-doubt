@@ -1,0 +1,193 @@
+system:
+  en: |
+    You are an expert answer evaluator assessing whether a predicted answer conveys the key information as any of the correct answers, regardless of phrasing.
+    Reply with only YES or NO.
+  
+  fr: |
+    Tu es un expert en évaluation des réponses, chargé de déterminer si une réponse proposée transmet les informations clés au même titre que n'importe quelle réponse correcte, indépendamment de sa formulation.
+    Réponds par OUI ou NON uniquement.
+  
+  es: |
+    Usted es un evaluador experto de respuestas que debe determinar si una respuesta predicha transmite la misma información clave que alguna de las respuestas correctas, independientemente de la redacción. 
+    Responda solo con SÍ o NO.
+  
+  ru: |
+    Вы являетесь экспертом по оценке ответов. Определите, передает ли предсказанный ответ ключевую информацию так же, как и любой из правильных ответов, независимо от формулировки.
+    Отвечайте только «ДА» или «НЕТ».
+  
+  ja: |
+    あなたは専門の回答評価者です。予測された回答が、表現方法に関わらず、いずれかの正解と同等に重要な情報を伝えられているかを評価しています。「はい」または「いいえ」のみで回答してください。
+
+  pl: |
+    Jesteś ekspertem w ocenie odpowiedzi i oceniasz, czy przewidywana odpowiedź przekazuje kluczowe informacje, jako którakolwiek z poprawnych odpowiedzi, niezależnie od sformułowania.
+    Odpowiadaj tylko TAK lub NIE.
+
+
+user:
+  en: |
+    You are evaluating whether a predicted answer conveys the key information as any of the correct answers.
+    Focus on factual accuracy over exact wording.
+
+    **Correct answers** (any one of these is acceptable):
+    {gold_list}
+
+    **Predicted answer**: {reference}
+
+    Rules:
+    - Accept answers with different wording, word order, length or minor additions/omissions
+    - Accept answers that capture the essential meaning, even if phrased differently
+    - Reject answers that are factually incorrect
+    - Reject answers that are too vague or miss crucial information
+
+    Examples:
+    - Correct answer: "the Great Wall of China" | Predicted: "the Great Wall" → YES (minor omission)
+    - Correct answer: "the Great Wall of China" | Predicted: "a wall" → NO (too vague)
+    - Correct answer: "12 April 1961" | Predicted: "the twelfth of April, 1961" → YES (same meaning)
+    - Correct answer: "12 April 1961" | Predicted: "the fifth of April, 1961" → NO (factually incorrect)
+    - Correct answer: "12 April 1961" | Predicted: "1961" → NO (missing month and day)
+    - Correct answer: "3" | Predicted: "three" → YES (same meaning)
+    - Correct answer: "Marie Curie" | Predicted: "Curie" → YES (minor omission)
+    - Correct answer: "Marie Curie" | Predicted: "the first woman to win a Nobel Prize" → YES (same meaning)
+    - Correct answer: "Mount Everest" | Predicted: "Everest, the highest mountain in the world" → YES (minor addition)
+
+    Answer only YES or NO.
+  
+  fr: |
+    Tu évalue si une réponse prédite transmet les informations clés au même titre que les réponses correctes.
+    Privilégie l'exactitude des faits à la formulation exacte.
+    
+    **Réponses correctes** (n'importe laquelle est acceptable):
+    {gold_list}
+    
+    **Réponse prédite**: {reference}
+
+    Règles:
+    - Accepte les réponses présentant des différences de formulation, d'ordre des mots, de longueur ou des ajouts/omissions mineurs.
+    - Accepte les réponses qui restituent le sens essentiel, même si elles sont formulées différemment.
+    - Rejete les réponses factuellement incorrectes.
+    - Rejete les réponses trop vagues ou qui omettent des informations cruciales.
+
+    Exemples:
+    - Réponse correcte: «la Grande Muraille de Chine» | Prédite: «la Grande Muraille» → OUI (omission mineure)
+    - Réponse correcte: «la Grande Muraille de Chine» | Prédite: «un mur» → NON (trop vague)
+    - Réponse correcte: «12 avril 1961» | Prédiction : « le 12 avril 1961 » → OUI (même sens)
+    - Réponse correcte : « 12 avril 1961 » | Prédiction : « le 5 avril 1961 » → NON (factuellement incorrect)
+    - Réponse correcte : « 12 avril 1961 » | Prédiction : « 1961 » → NON (mois et jour manquants)
+    - Réponse correcte : « 3 » | Prédiction : « trois » → OUI (même sens)
+    - Réponse correcte : « Marie Curie » | Prédiction : « Curie » → OUI (petite omission)
+    - Réponse correcte : « Marie Curie » | Prédiction : « la première femme à remporter un prix Nobel » → OUI (même sens)
+    - Réponse correcte : « Mont Everest » | Prédiction: «L'Everest, la plus haute montagne du monde» → OUI (légère précision)
+
+    Réponds uniquement par OUI ou NON.
+  
+  es: |
+    Estás evaluando si una respuesta predicha transmite la misma información clave que alguna de las respuestas correctas.
+    Priorice la exactitud de la información sobre la redacción exacta.
+
+    **Respuestas correctas** (cualquiera de estas es aceptable):
+    {gold_list}
+
+    **Respuesta predicha**: {reference}
+
+    Reglas:
+    - Acepte respuestas con diferente redacción, orden de palabras, longitud o pequeñas adiciones/omisiones.
+    - Acepte respuestas que capturen el significado esencial, aunque estén formuladas de manera diferente.
+    - Rechace respuestas que contengan información incorrecta.
+    - Rechace respuestas que sean demasiado vagas o que omitan información esencial.
+
+    Ejemplos:
+    - Respuesta correcta: "la Gran Muralla China" | Respuesta predicha: "la Gran Muralla" → SÍ (omisión menor)
+    - Respuesta correcta: "la Gran Muralla China" | Respuesta predicha: "una muralla" → NO (demasiado vaga)
+    - Respuesta correcta: "12 de abril de 1961" | Respuesta predicha: "el doce de abril de 1961" → SÍ (mismo significado)
+    - Respuesta correcta: "12 de abril de 1961" | Respuesta predicha: "el cinco de abril de 1961" → NO (información incorrecta)
+    - Respuesta correcta: "12 de abril de 1961" | Respuesta predicha: "1961" → NO (falta el mes y el día)
+    - Respuesta correcta: "3" | Respuesta predicha: "tres" → SÍ (mismo significado)
+    - Respuesta correcta: "Marie Curie" | Respuesta predicha: "Curie" → SÍ (omisión menor)
+    - Respuesta correcta: "Marie Curie" | Respuesta predicha: "la primera mujer en ganar un Premio Nobel" → SÍ (mismo significado)
+    - Respuesta correcta: "Monte Everest" | Respuesta predicha: "El Everest, la montaña más alta del mundo" → SÍ (pequeña adición)
+
+    Responda solo SÍ o NO.
+  
+  ru: |
+    Вы оцениваете, передает ли предсказанный ответ так же, как и любой из правильных ответов.
+    Предпочитайте фактическую точность дословной формулировке.
+    
+    **Правильные ответы** (любой из них приемлем):
+    {gold_list}
+    
+    **Предсказанный ответ**: {reference}
+
+    Правила:
+    - Принимаются ответы с другой формулировкой, порядком слов, длиной или незначительными дополнениями/пропусками
+    - Принимаются ответы, которые передают основной смысл, даже если они сформулированы по-другому
+    - Отклоняются ответы, которые фактически неверны
+    - ⁠Отклоняются ответы, которые слишком расплывчаты или упускают важную информацию
+
+    Примеры:
+    - Правильный ответ: «Великая Китайская стена» | Предсказанный ответ: «Великая стена» → ДА (незначительное упущение, предает основной смысл)
+    - ⁠⁠Правильный ответ: «Великая Китайская стена» | Предсказанный ответ: «стена» → НЕТ (слишком расплывчато)
+    - Правильный ответ: «12 апреля 1961 г.» | Предсказанный ответ: «двенадцатое апреля 1961 г.» → ДА (предает основной смысл)
+    - ⁠⁠Правильный ответ: «12 апреля 1961 г.» | Предсказанный ответ: «пятое апреля 1961 г.» → НЕТ (фактически неверно)
+    - ⁠⁠Правильный ответ: «12 апреля 1961 г.» | Предсказанный ответ: «1961» → НЕТ (упущена важная информация, отсутствуют месяц и день)
+    - ⁠Правильный ответ: «3» | Предсказанный ответ: «три» → ДА (передает основной смысл)
+    - ⁠⁠Правильный ответ: «Мария Кюри» | Предсказанный ответ: «Кюри» → ДА (незначительное упущение, предает основной смысл)
+    - ⁠⁠Правильный ответ: «Мария Кюри» | Предсказанный ответ: «первая женщина, получившая Нобелевскую премию» → ДА (другая формулировка, передает основной смысл)
+    - ⁠⁠Правильный ответ: «Эверест» | Предсказанный ответ: «Эверест, самая высокая гора в мире» → ДА (незначительное дополнение, передает основной смысл)
+
+    Отвечайте только ДА или НЕТ.
+  
+  ja : |
+    予測された回答が、いずれかの正解と同様に重要な情報を伝えているかどうかを評価しています。
+    正確な表現よりも事実の正確さを重視してください。
+
+    正解（いずれも受け入れます）：
+    {gold_list}
+
+    予測された回答：{reference}
+
+    ルール：
+    - ⁠異なる表現、語順、長さ、または軽微な追加/省略のある回答は受け入れます。
+    - ⁠表現が異なっていても、本質的な意味を捉えている回答は受け入れます。
+    - ⁠事実と異なる回答は拒否します。
+    - ⁠曖昧すぎる回答、または重要な情報が欠けている回答は拒否します。
+
+    例：
+    - ⁠正解：「ナイアガラの滝」｜予測：「ナイアガラ」→ はい（軽微な省略）
+    - ⁠正解：「万里の長城」｜予測: 「壁」 → いいえ (曖昧すぎる)
+    - ⁠正解: 「1961年4月12日」 | 予測: 「1961年四月十二日」 → はい (意味が同じ)
+    - ⁠正解: 「1961年4月12日」 | 予測: 「1961年4月5日」 → いいえ (事実と異なる)
+    - ⁠正解: 「1961年4月12日」 | 予測: 「1961」 → いいえ (月と日が抜けている)
+    - ⁠正解: 「3」 | 予測: 「三」 → はい (意味が同じ)
+    - ⁠正解: 「マリー・キュリー」 | 予測: 「キュリー夫人」 → はい (軽微な省略)
+    - ⁠正解: 「マリー・キュリー」 | 予測: 「ノーベル賞を受賞した最初の女性」 → はい (意味が同じ)
+    - ⁠正解: 「エベレスト」 |予測：「世界一高い山エベレスト」→はい（軽微な追加）
+    
+    はい​​、いいえのみで回答してください。
+
+  pl : |
+    Oceń, czy przewidywana odpowiedź przekazuje kluczowe informacje, jako którakolwiek z poprawnych odpowiedzi.
+    Skup się na dokładności faktów, a nie na dokładnym sformułowaniu.
+
+    **Prawidłowe odpowiedzi** (każda z poniższych jest dopuszczalna):
+    {gold_list}
+
+    **Przewidywana odpowiedź**: {reference}
+
+    Zasady:
+    - Akceptuj odpowiedzi z innym sformułowaniem, kolejnością słów, długością lub drobnymi dodatkami/pominięciami
+    - Akceptuj odpowiedzi, które oddają istotę pytania, nawet jeśli zostały sformułowane inaczej
+    - Odrzuć odpowiedzi, które są nieprawdziwe
+    - Odrzuć odpowiedzi, które są zbyt ogólne lub pomijają kluczowe informacje
+
+    Przykłady:
+    - Prawidłowa odpowiedź: „Wielki Mur Chiński” | Przewidywana odpowiedź: „Wielki Mur” → TAK (drobne pominięcie)
+    - Prawidłowa odpowiedź: „Wielki Mur Chiński” | Przewidywana odpowiedź: „mur” → NIE (zbyt ogólne)
+    - Prawidłowa odpowiedź: „12 kwietnia 1961” | Przewidywana odpowiedź: „dwunasty kwietnia 1961 r.” → TAK (to samo znaczenie)
+    - Prawidłowa odpowiedź: „12 kwietnia 1961 r.” | Przewidywana odpowiedź: „piąty kwietnia 1961 r.” → NIE (niezgodna z faktami)
+    - Prawidłowa odpowiedź: „12 kwietnia 1961 r.” | Przewidywana odpowiedź: „1961” → NIE (brak miesiąca i dnia)
+    - Prawidłowa odpowiedź: „3” | Przewidywana odpowiedź: „trzy” → TAK (to samo znaczenie)
+    - Prawidłowa odpowiedź: „Maria Skłodowska-Curie” | Przewidywana odpowiedź: „Curie” → TAK (drobne pominięcie)
+    - Prawidłowa odpowiedź: „Maria Skłodowska-Curie” | Przewidywana odpowiedź: „pierwsza kobieta, która otrzymała Nagrodę Nobla” → TAK (to samo znaczenie)
+    - Prawidłowa odpowiedź: „Mount Everest” | Przewidywana odpowiedź: „Everest, najwyższa góra świata” → TAK (drobne uzupełnienie)
+
+    Odpowiedz tylko TAK lub NIE.
